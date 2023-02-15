@@ -65,7 +65,7 @@ const CreatePost = () => {
         </p>
       </div>
       <form className="mt-16 max-w-7xl" onSubmit={handleSubmit}>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col  gap-5">
           <FormField
             labelName="Your name"
             type="text"
@@ -104,7 +104,7 @@ const CreatePost = () => {
               <img
                 src={form.photo}
                 alt={form.prompt}
-                className="w-full h-full object-contain"
+                className="w-screen h-full object-fill"
               />
             ) : (
               <ImImage className="w-full h-full object-contain opacity-40" />
