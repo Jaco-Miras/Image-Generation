@@ -24,7 +24,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://image-studio.onrender.com/studio",
+          "https://image-studio.onrender.com/api/v1/studio",
           {
             method: "POST",
             headers: {
