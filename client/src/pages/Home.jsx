@@ -24,7 +24,7 @@ const Home = () => {
 
       try {
         const response = await fetch(
-          "https://image-studio.onrender.com/api/v1/post",
+          "https://image-studio2.onrender.com/api/v1/post",
           {
             method: "GET",
             headers: {

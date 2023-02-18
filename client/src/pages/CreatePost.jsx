@@ -24,7 +24,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://image-studio.onrender.com/api/v1/studio",
+          "https://image-studio2.onrender.com/api/v1/studio",
           {
             method: "POST",
             headers: {
@@ -55,7 +55,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          "https://image-studio.onrender.com/api/v1/post",
+          "https://image-studio2.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
