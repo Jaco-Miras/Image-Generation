@@ -23,6 +23,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
+
         const response = await fetch(
           "https://image-studio2.onrender.com/api/v1/studio",
           {
